@@ -1,4 +1,4 @@
-import ThemeSelect from "./components/ThemeSelect"
+import ThemeSelect from "../components/ThemeSelect"
 export default function Home() {
     return (
         <div className="flex flex-col">
