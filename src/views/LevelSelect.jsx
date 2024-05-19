@@ -19,20 +19,21 @@ function levelCard(levelName, levelDesc) {
 }
 
 export default function LevelSelect() {
-    return (
-        <div className="mt-4">
-            <p className="text-xl text-center pb-3">
-                Choose how hard you like it?
-            </p>
-            <div className="flex flex-col w-full border-opacity-50">
-                <div className="grid h-30 card bg-base-300 rounded-box place-items-center">
-                    {levelCard('easy', 'Flying first time')}
-                </div>
-                <div className="divider">OR</div>
-                <div className="grid h-30 card bg-base-300 rounded-box place-items-center">
-                    {levelCard('hard', 'Flying veteran')}
-                </div>
-            </div>
+  return (
+    <div className="mt-4">
+      <p className="text-xl text-center pb-3">
+        Choose how hard you like it?
+      </p>
+      <div className="flex flex-col w-full border-opacity-50">
+        <div className="grid h-30 card rounded-box place-items-center">
+          {levelCard('easy', 'Flying first time')}
         </div>
-    );
+        <div className="divider">OR</div>
+        <div className="grid h-30 card rounded-box place-items-center">
+          {levelCard('hard', 'Flying veteran')}
+        </div>
+
+      </div>
+    </div>
+  )
 }
