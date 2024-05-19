@@ -11,6 +11,7 @@ export default function ThemeSelect() {
   }, [])
 
   const themes = [
+    "mytheme",
     "light",
     "dark",
     "cupcake",
