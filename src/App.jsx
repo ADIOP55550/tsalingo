@@ -20,7 +20,7 @@ function App() {
             <div className="container flex  h-full">
               <div className="container h-full flex flex-col">
                 <Navbar />
-                <div className='h-full flex px-4 justify-center'>
+                <div className='h-full flex px-4 justify-center flex-col'>
                   <Routes >
                     <Route exact path="/" element={<Home />} />
                     <Route path="/whereYouCameFrom" element={<WhereYouCameFrom />} />
