@@ -11,11 +11,12 @@ import Navbar from './components/Navbar.jsx'
 
 function App() {
   return (
+
     <Router>
       <div className="mockup-phone">
         <div className="camera"></div>
         <div className="display relative">
-          <div className="artboard artboard-demo phone-1 block">
+          <div className="artboard artboard-demo phone-1 block px-4 bg-neutral">
             <div className="container">
               <Navbar />
               <Routes >
@@ -27,12 +28,10 @@ function App() {
                 <Route path="/itsDone" element={<EagleFinalMessage />} />
                 <Route path="/couponMessage" element={<CouponMessage />} />
               </Routes >
-
             </div>
           </div>
         </div>
       </div>
-
       <div>
         <ul className="menu bg-base-200 w-56 rounded-box">
           <li><Link to="/">Home</Link></li>
