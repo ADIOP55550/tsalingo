@@ -8,6 +8,8 @@ import WhereYouCameFrom from "./views/WhereYouCameFrom.jsx"
 import Quiz from "./views/Quiz.jsx"
 import PassportChallenge from "./views/PassportChallenge.jsx"
 import Navbar from './components/Navbar.jsx'
+import Settings from './views/Settings.jsx'
+import Documents from './views/Documents.jsx'
 
 function App() {
   return (
@@ -16,22 +18,20 @@ function App() {
       <div className="mockup-phone">
         <div className="camera"></div>
         <div className="display relative">
-          <div className="artboard artboard-demo phone-1 block  bg-neutral">
-            <div className="container flex  h-full">
-              <div className="container h-full flex flex-col">
-                <Navbar />
-                <div className='h-full flex px-4 justify-center flex-col'>
-                  <Routes >
-                    <Route exact path="/" element={<Home />} />
-                    <Route path="/whereYouCameFrom" element={<WhereYouCameFrom />} />
-                    <Route path="/levelSelect" element={<LevelSelect />} />
-                    <Route path="/quiz/:levelName" element={<Quiz />} />
-                    <Route path="/passportChallenge" element={<PassportChallenge />} />
-                    <Route path="/itsDone" element={<EagleFinalMessage />} />
-                    <Route path="/couponMessage" element={<CouponMessage />} />
-                  </Routes >
-                </div>
-              </div>
+          <div className="artboard artboard-demo phone-1 block bg-neutral">
+            <Navbar />
+            <div className="container flex col-auto text-black">
+              <Routes >
+                <Route exact path="/" element={<Home />} />
+                <Route path="/whereYouCameFrom" element={<WhereYouCameFrom />} />
+                <Route path="/levelSelect" element={<LevelSelect />} />
+                <Route path="/quiz/:levelName" element={<Quiz />} />
+                <Route path="/passportChallenge" element={<PassportChallenge />} />
+                <Route path="/itsDone" element={<EagleFinalMessage />} />
+                <Route path="/couponMessage" element={<CouponMessage />} />
+                <Route path="/settings" element={<Settings />} />
+                <Route path="/documents" element={<Documents />} />
+              </Routes >
             </div>
           </div>
         </div>
