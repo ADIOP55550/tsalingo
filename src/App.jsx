@@ -17,9 +17,9 @@ function App() {
       <div className="mockup-phone">
         <div className="camera"></div>
         <div className="display relative">
-          <div className="artboard artboard-demo phone-1 block px-4 bg-neutral">
-            <div className="container h-full flex col-auto">
-              <Navbar />
+          <div className="artboard artboard-demo phone-1 block bg-neutral">
+            <Navbar />
+            <div className="container h-full flex col-auto px-4">
               <Routes >
                 <Route exact path="/" element={<Home />} />
                 <Route path="/whereYouCameFrom" element={<WhereYouCameFrom />} />
