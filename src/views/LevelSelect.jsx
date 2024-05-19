@@ -20,7 +20,7 @@ function levelCard(levelName, levelDesc) {
 
 export default function LevelSelect() {
   return (
-    <div className="mt-4">
+    <div className="mt-4 mx-auto text-black">
       <p className="text-xl text-center pb-3">
         Choose how hard you like it?
       </p>
