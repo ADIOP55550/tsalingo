@@ -107,13 +107,6 @@ function AnimatedQuizCard({ image }) {
             >
                 <QuizCard image={image} />
             </animated.div>
-            {
-                dropZone && (
-                    <p>
-                        Dropped {image} in {dropZone}
-                    </p>
-                )
-            }
         </div >
     );
 }

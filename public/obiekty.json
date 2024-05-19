@@ -1,0 +1,77 @@
+{
+    "items": [
+        {
+            "name": "Alcoholic beverages (24-70%)",
+            "carry_on": true,
+            "checked_bag": true,
+            "image":"quiz-card/alcohol-beverage.jpg"
+        },
+        {
+            "name": "Alcoholic beverages (+70%)",
+            "carry_on": false,
+            "checked_bag": false,
+            "image":"quiz-card/alcohol-beverage.jpg"
+        },
+        {
+            "name": "Baby bottle (0-100ml)",
+            "carry_on": true,
+            "checked_bag": true,
+            "image":"quiz-card/baby-bottle(0-100)"
+        },
+        {
+            "name": "Baby bottle (+100ml)",
+            "carry_on": false,
+            "checked_bag": false,
+            "image":"quiz-card/baby-bottle(+100)"
+        },
+        {
+            "name": "Power Bank (0-40000 mAh)",
+            "carry_on": false,
+            "checked_bag": true,
+            "image":"quiz-card/power-bank(0-40000)"
+        },
+        {
+            "name": "Power Bank (+40000 mAh)",
+            "carry_on": false,
+            "checked_bag": false,
+            "image":"quiz-card/power-bank(+40000)"
+        },
+        {
+            "name": "Box cutter",
+            "carry_on": false,
+            "checked_bag": true,
+            "image":"quiz-card/box-cutter"
+        },
+        {
+            "name": "Crackers",
+            "carry_on": true,
+            "checked_bag": true,
+            "image":"quiz-card/crackers"
+        },
+        {
+            "name": "Bottle of water (0-100ml)",
+            "carry_on": true,
+            "checked_bag": true,
+            "image":"quiz-card/bottle-of-water(0-100)"
+        },
+        {
+            "name": "Bottle of water (+100ml)",
+            "carry_on": false,
+            "checked_bag": false,
+            "image":"quiz-card/bottle-of-water(+100)"
+        },
+        {
+            "name": "Aerosol Insecticide",
+            "carry_on": false,
+            "checked_bag": true,
+            "image":"quiz-card/aerosol"
+        },
+        {
+            "name": "Baby carrier",
+            "carry_on": true,
+            "checked_bag": true,
+            "image":"quiz-card/baby-carrier"
+        }
+        
+    ]
+}

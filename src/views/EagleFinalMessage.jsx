@@ -17,7 +17,7 @@ export default function EagleFinalMessage() {
 
       <div className="mx-4">
         <div className="text-center mt-20">
-          <h2 className="text-xl mb-1">Doskonale!</h2>
+          <h2 className="text-xl mb-1">Great!</h2>
           <div className="rating">
             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
             <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
