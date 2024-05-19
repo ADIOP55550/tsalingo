@@ -11,7 +11,8 @@ export default function ThemeSelect() {
   }, [])
 
   const themes = [
-    "mytheme",
+    "ryanair",
+    "wizzair",
     "light",
     "dark",
     "cupcake",
