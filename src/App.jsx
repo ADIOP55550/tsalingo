@@ -8,6 +8,7 @@ import WhereYouCameFrom from "./views/WhereYouCameFrom.jsx"
 import Quiz from "./views/Quiz.jsx"
 import PassportChallenge from "./views/PassportChallenge.jsx"
 import Navbar from './components/Navbar.jsx'
+import ThemeSelect from './components/ThemeSelect.jsx'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <li><Link to="/couponMessage">Coupon Message</Link></li>
         </ul>
       </div>
+      <ThemeSelect />
     </Router>
   );
 }
