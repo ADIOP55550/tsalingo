@@ -1,0 +1,154 @@
+{
+    "items": [
+        {
+            "name": "Alcoholic beverages",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Baby formula",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Power Bank 30000 mAh",
+            "carry_on": false,
+            "checked_bag": true
+        },
+        {
+            "name": "Box cutter",
+            "carry_on": false,
+            "checked_bag": true
+        },
+        {
+            "name": "Cake (solid)",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Cheese (solid)",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Christmas crackers",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Dry ice",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Explosives",
+            "carry_on": false,
+            "checked_bag": false
+        },
+        {
+            "name": "Fireworks",
+            "carry_on": false,
+            "checked_bag": false
+        },
+        {
+            "name": "Gel-type candles",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Gun",
+            "carry_on": false,
+            "checked_bag": true
+        },
+        {
+            "name": "Human remains (ashes)",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Ice axe",
+            "carry_on": false,
+            "checked_bag": true
+        },
+        {
+            "name": "Jam or jelly",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Liquids in containers larger than 3.4 oz or 100 ml",
+            "carry_on": false,
+            "checked_bag": true
+        },
+        {
+            "name": "Meat (solid)",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Nail clippers",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Oranges",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Peanut butter (solid)",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Quills (for writing)",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Razor blades",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Scissors (with blades shorter than 4 inches)",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Tennis racket",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Umbrellas",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Violin",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Waffle iron",
+            "carry_on": false,
+            "checked_bag": true
+        },
+        {
+            "name": "Xylophone",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Yogurt",
+            "carry_on": true,
+            "checked_bag": true
+        },
+        {
+            "name": "Zester",
+            "carry_on": true,
+            "checked_bag": true
+        }
+    ]
+}

@@ -17,13 +17,13 @@ function App() {
         <div className="camera"></div>
         <div className="display relative">
           <div className="artboard artboard-demo phone-1 block px-4 bg-neutral">
-            <div className="container">
+            <div className="container h-full flex col-auto">
               <Navbar />
               <Routes >
                 <Route exact path="/" element={<Home />} />
                 <Route path="/whereYouCameFrom" element={<WhereYouCameFrom />} />
                 <Route path="/levelSelect" element={<LevelSelect />} />
-                <Route path="/quiz/*" element={<Quiz />} />
+                <Route path="/quiz/:levelName" element={<Quiz />} />
                 <Route path="/passportChallenge" element={<PassportChallenge />} />
                 <Route path="/itsDone" element={<EagleFinalMessage />} />
                 <Route path="/couponMessage" element={<CouponMessage />} />
