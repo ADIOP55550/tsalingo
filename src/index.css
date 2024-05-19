@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.fade-out-element {
+    transition: opacity 1s ease-out; /* Adjust the duration as needed */
+  }
+  
+  .fade-out-element.fade-out {
+    opacity: 0;
+  }
+  .animated-card {
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .correct-drop {
+    background-color: green;
+    opacity: 0; /* Make the card disappear with a fade-out effect */
+  }
